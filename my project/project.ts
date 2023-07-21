@@ -119,7 +119,6 @@ class EmployeeOrgApp implements IEmployeeOrgApp {
 
   const app = new EmployeeOrgApp(ceo);
 
-
 app.move(4, 15); // Bob Saget (ID: 4) becomes subordinate of Georgina Flangy (ID: 15)
 
 app.undo(); // Undo the last move action
